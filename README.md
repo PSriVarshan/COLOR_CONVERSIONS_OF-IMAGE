@@ -71,8 +71,7 @@ Register Number: 212222240104
 
 #### IMAGE 
 
-![WhatsApp Image 2024-02-12 at 22 45 58_61274ce4](https://github.com/swedha333/COLOR_CONVERSIONS_OF-IMAGE/assets/114944059/584633de-5b50-4455-9ed1-871d2fdcbbd8)
-
+<img src='raw.jpg'>
 
 ## Program:
 
@@ -91,7 +90,7 @@ cv2.destroyAllWindows()
 
 ### Output:
 
-![image](https://github.com/swedha333/COLOR_CONVERSIONS_OF-IMAGE/assets/114944059/40578dba-1b99-4636-aa00-79893b54490d)
+<img src='1.jpg'>
 
 ## Program:
 
@@ -106,7 +105,7 @@ cv2.imwrite('demos.jpg',image)
 
 ### Output
 
-![WhatsApp Image 2024-02-12 at 23 28 40_d20d6cd2](https://github.com/PSriVarshan/COLOR_CONVERSIONS_OF-IMAGE/assets/114944059/32b1149e-0ebc-463b-98b5-22199a6f8e8e)
+<img src='2.jpg'>
 
 ## Program:
 
@@ -122,7 +121,7 @@ print(image.shape)
 
 ### Output
 
-![WhatsApp Image 2024-02-12 at 23 28 57_499cb433](https://github.com/PSriVarshan/COLOR_CONVERSIONS_OF-IMAGE/assets/114944059/790dce93-b2ca-4e31-b190-cd87bf55d03a)
+<img src='3.jpg'>
 
 
 ## Program:
@@ -147,6 +146,7 @@ cv2.destroyAllWindows()
 
 ### Output
 
+<img src='4.jpg'>
 
 
 ## Program:
@@ -166,8 +166,10 @@ cv2.destroyAllWindows()
 
 ### Output
 
+<img src='5.jpg'>
 
 ## Program:
+
 ### (vi) BGR and RGB to HSV and GRAY
 ```py
 #BGR and RGB to HSV and GRAY
@@ -191,9 +193,13 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+### Original Image
 
+<img src='6.jpg'>
 
 ### Output
+
+<img src = '7.jpg'>
 
 ## Program:
 
@@ -218,9 +224,14 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 ```
+### Original HSV
 
+<img src='8.jpg'>
 
 ### Output
+
+
+<img src='9.jpg'>
 
 ## Program:
 
@@ -244,6 +255,9 @@ cv2.destroyAllWindows()
 ```
 
 ### Output
+
+
+<img src='10.jpg'>
 
 ## Program:
 
@@ -270,6 +284,15 @@ cv2.destroyAllWindows()
 ```
 ### Output
 
+#### Channels
+
+<img src='11.jpg'>
+
+#### Merged RGB
+
+
+<img src='12.jpg'>
+
 ## Program:
 
 ### (x) Split and merge HSV Image
@@ -295,8 +318,16 @@ cv2.destroyAllWindows()
 
 ### Output
 
+### Merged HSV
 
 
+<img src='13.jpg'>
+
+
+### Splitted
+
+
+<img src='14.jpg'>
 
 ## Result:
 #### Thus the images are read, displayed, and written ,and color conversion was performed between RGB, HSV and YCbCr color models successfully using the python program.
